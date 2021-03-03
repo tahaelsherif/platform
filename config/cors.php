@@ -12,8 +12,8 @@ return [
      */
     'supportsCredentials' => false,
     'allowedOrigins' => ['*'],
-    'allowedHeaders' => ['Authorization', 'Content-type', 'Accept' ,'DNT', 'X-Auth-Token' ,'Keep-Alive' ,'User-Agent', 'X-Requested-With', 'If-Modified-Since' ,'Cache-Control','Content-Type','Content-Range','Range'],
+    'allowedHeaders' => ['Authorization', 'Content-type', 'Accept' ,'DNT', 'X-CustomHeader' ,'Keep-Alive' ,'User-Agent', 'X-Requested-With', 'If-Modified-Since' ,'Cache-Control','Content-Type','Content-Range','Range'],
     'allowedMethods' => ['GET', 'POST', 'OPTIONS'],
-    'exposedHeaders' => ['DNT','X-Auth-Token','Keep-Alive','User-Agent','X-Requested-With','If-Modified-Since','Cache-Control','Content-Type','Content-Range','Range'],
+    'exposedHeaders' => ['DNT','X-CustomHeader','Keep-Alive','User-Agent','X-Requested-With','If-Modified-Since','Cache-Control','Content-Type','Content-Range','Range'],
     'maxAge' => 0,
 ];
