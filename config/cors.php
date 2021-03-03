@@ -14,6 +14,6 @@ return [
     'allowedOrigins' => ['*'],
     'allowedHeaders' => ['Authorization', 'Content-type', 'Accept'],
     'allowedMethods' => ['*'],
-    'exposedHeaders' => [],
+    'exposedHeaders' => ['DNT','X-Auth-Token','Keep-Alive','User-Agent','X-Requested-With','If-Modified-Since','Cache-Control','Content-Type','Content-Range','Range'],
     'maxAge' => 0,
 ];
