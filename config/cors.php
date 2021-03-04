@@ -14,6 +14,6 @@ return [
     'allowedOrigins' => ['*'],
     'allowedHeaders' => ['Authorization', 'Content-type', 'Accept'],
     'allowedMethods' => ['*'],
-    'exposedHeaders' => [""],
+    'exposedHeaders' => [''],
     'maxAge' => 0,
 ];
